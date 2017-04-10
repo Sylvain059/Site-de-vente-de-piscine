@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  font-family: 'Satisfy', cursive;
 }
 
 header {
@@ -37,7 +38,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: green;
+  color: purple;
 }
 
 .menu {
@@ -90,7 +91,21 @@ main figure img{
 }
 
 main figcaption {
+  font-family: 'Philosopher', sans-serif;
   text-align: left;
   padding: 0 10px 10px 10px;
+}
 
+main a:hover{
+  text-decoration: none;
+}
+
+main form input, textarea {
+  display: block;
+  margin: auto;
+}
+
+map iframe {
+  margin: 10px 0;
+  width: 90%;
 }
