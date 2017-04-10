@@ -109,3 +109,19 @@ map iframe {
   margin: 10px 0;
   width: 90%;
 }
+
+main table {
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+main table caption {
+  margin-bottom: 10px;
+  border: 2px ridge black;
+  border-radius: 10px;
+  background-color: cyan;
+}
+
+thead {
+  background-color: blue;
+}
