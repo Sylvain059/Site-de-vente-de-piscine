@@ -5,7 +5,7 @@ body {
 header {
   width: 100%;
   height: auto;
-  background-color: blue;
+  background-color: lightblue;
 }
 
 header nav {
@@ -54,14 +54,14 @@ h1 {
 footer {
   width: 100%;
   height: auto;
-  background-color: cyan;
+  background-color: lightblue;
   border-radius: 5px;
 }
 
 footer ul {
   position: relative;
   bottom: 0;
-  right: 28em;
+  right: 40%;
 }
 footer li {
   display: inline-block;
@@ -72,4 +72,25 @@ footer img {
   width: 48px;
   height: 48px;
   border-radius: 15px;
+}
+
+main figure {
+  width: 40%;
+  height: auto;
+  display: inline-block;
+  background-color: cyan;
+  border-radius: 15px;
+}
+
+main figure img{
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+main figcaption {
+  text-align: left;
+  padding: 0 10px 10px 10px;
+
 }
