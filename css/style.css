@@ -118,7 +118,7 @@ main form input, textarea {
   margin: 10px auto;
 }
 
-map iframe {
+main iframe {
   margin: 10px 0;
   width: 90%;
 }
@@ -138,6 +138,14 @@ main table caption {
 
 thead {
   background-color: blue;
+}
+
+th {
+  border: 1px ridge black;
+}
+
+td {
+  border: 1px ridge black;
 }
 
 @media (min-width:481px) and (max-width:991px) {
